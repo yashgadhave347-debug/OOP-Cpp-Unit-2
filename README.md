@@ -115,23 +115,4 @@ g++ -std=c++17 "UNIT 2/Program_16/program16.cpp" -o program16 && ./program16
 | 15 | Payment Processing System | `UNIT 3/Program_15` | Real-world polymorphic interface | An abstract `Payment` interface is implemented by `CardPayment`, `UpiPayment`, and `NetBankingPayment`, processed via a unified handler. |
 | 16 | Employee Payroll Mini-Project | `UNIT 3/Program_16` | Integrated polymorphism project | An abstract `Employee` base class is extended by `PermanentEmployee` and `ContractEmployee`, each calculating salary polymorphically for pay slips. |
 
-### How to Compile and Run (Unit III)
 
-```bash
-g++ -std=c++17 "UNIT 3/Program_01/program01.cpp" -o program01 && ./program01
-g++ -std=c++17 "UNIT 3/Program_02/program02.cpp" -o program02 && ./program02
-g++ -std=c++17 "UNIT 3/Program_03/program03.cpp" -o program03 && ./program03
-g++ -std=c++17 "UNIT 3/Program_04/program04.cpp" -o program04 && ./program04
-g++ -std=c++17 "UNIT 3/Program_05/program05.cpp" -o program05 && ./program05
-g++ -std=c++17 "UNIT 3/Program_06/program06.cpp" -o program06 && ./program06
-g++ -std=c++17 "UNIT 3/Program_07/program07.cpp" -o program07 && ./program07
-g++ -std=c++17 "UNIT 3/Program_08/program08.cpp" -o program08 && ./program08
-g++ -std=c++17 "UNIT 3/Program_09/program09.cpp" -o program09 && ./program09
-g++ -std=c++17 "UNIT 3/Program_10/program10.cpp" -o program10 && ./program10
-g++ -std=c++17 "UNIT 3/Program_11/program11.cpp" -o program11 && ./program11
-g++ -std=c++17 "UNIT 3/Program_12/program12.cpp" -o program12 && ./program12
-g++ -std=c++17 "UNIT 3/Program_13/program13.cpp" -o program13 && ./program13
-g++ -std=c++17 "UNIT 3/Program_14/program14.cpp" -o program14 && ./program14
-g++ -std=c++17 "UNIT 3/Program_15/program15.cpp" -o program15 && ./program15
-g++ -std=c++17 "UNIT 3/Program_16/program16.cpp" -o program16 && ./program16
-```
