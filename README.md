@@ -31,20 +31,6 @@
 | 7 | Static Data Members | `UNIT I/Program_07` | Static Class Members | Tracks total object creations using a shared class-level static counter. |
 | 8 | Inline and Friend Functions | `UNIT I/Program_08` | Inline & Friend Functions | Accesses private members via an inline getter and a non-member friend function. |
 
-### How to Compile and Run (Unit I)
-
-```bash
-g++ "UNIT I/Program_01/program01.cpp" -o program01 && ./program01
-g++ "UNIT I/Program_02/program02.cpp" -o program02 && ./program02
-g++ "UNIT I/Program_03/program03.cpp" -o program03 && ./program03
-g++ "UNIT I/Program_04/program04.cpp" -o program04 && ./program04
-g++ "UNIT I/Program_05/program05.cpp" -o program05 && ./program05
-g++ "UNIT I/Program_06/program06.cpp" -o program06 && ./program06
-g++ "UNIT I/Program_07/program07.cpp" -o program07 && ./program07
-g++ "UNIT I/Program_08/program08.cpp" -o program08 && ./program08
-```
-
----
 
 ## Unit II: Inheritance
 
@@ -69,28 +55,7 @@ g++ "UNIT I/Program_08/program08.cpp" -o program08 && ./program08
 | 15 | Mini-Project - Vehicle Rental System | `UNIT 2/Program_15` | A polymorphic rental billing system where `Car` and `Bike` derive from `Vehicle` and override rent calculation and display logic. |
 | 16 | Mini-Project - Employee Payroll System | `UNIT 2/Program_16` | An abstract `Employee` class is extended by `PermanentEmployee` and `ContractEmployee`, each implementing its own salary calculation, demonstrated through a common `displayPaySlip()` function. |
 
-### How to Compile and Run (Unit II)
 
-```bash
-g++ -std=c++17 "UNIT 2/Program_01/program01.cpp" -o program01 && ./program01
-g++ -std=c++17 "UNIT 2/Program_02/program02.cpp" -o program02 && ./program02
-g++ -std=c++17 "UNIT 2/Program_03/program03.cpp" -o program03 && ./program03
-g++ -std=c++17 "UNIT 2/Program_04/program04.cpp" -o program04 && ./program04
-g++ -std=c++17 "UNIT 2/Program_05/program05.cpp" -o program05 && ./program05
-g++ -std=c++17 "UNIT 2/Program_06/program06.cpp" -o program06 && ./program06
-g++ -std=c++17 "UNIT 2/Program_07/program07.cpp" -o program07 && ./program07
-g++ -std=c++17 "UNIT 2/Program_08/program08.cpp" -o program08 && ./program08
-g++ -std=c++17 "UNIT 2/Program_09/program09.cpp" -o program09 && ./program09
-g++ -std=c++17 "UNIT 2/Program_10/program10.cpp" -o program10 && ./program10
-g++ -std=c++17 "UNIT 2/Program_11/program11.cpp" -o program11 && ./program11
-g++ -std=c++17 "UNIT 2/Program_12/program12.cpp" -o program12 && ./program12
-g++ -std=c++17 "UNIT 2/Program_13/program13.cpp" -o program13 && ./program13
-g++ -std=c++17 "UNIT 2/Program_14/program14.cpp" -o program14 && ./program14
-g++ -std=c++17 "UNIT 2/Program_15/program15.cpp" -o program15 && ./program15
-g++ -std=c++17 "UNIT 2/Program_16/program16.cpp" -o program16 && ./program16
-```
-
----
 
 ## Unit III: Polymorphism
 
